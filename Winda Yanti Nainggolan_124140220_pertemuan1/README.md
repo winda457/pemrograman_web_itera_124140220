@@ -59,9 +59,12 @@ Winda Yanti Nainggolan_124140220_pertemuan1/
 
 > Ganti dengan screenshot sendiri (minimal 3).
 
-1. Form input utama – ![Image Alt](https://github.com/winda457/pemrograman_web_itera_124140220/blob/d8b71de9796aa3e1e65e4bd93e5a9478ee899c83/Winda%20Yanti%20Nainggolan_124140220_pertemuan1/screenshot/Form.png)
-2. Validasi error – ![Image Alt](https://github.com/winda457/pemrograman_web_itera_124140220/blob/d8b71de9796aa3e1e65e4bd93e5a9478ee899c83/Winda%20Yanti%20Nainggolan_124140220_pertemuan1/screenshot/Eror.png)
-3. Hasil perhitungan & tabel – ![Image Alt](https://github.com/winda457/pemrograman_web_itera_124140220/blob/d8b71de9796aa3e1e65e4bd93e5a9478ee899c83/Winda%20Yanti%20Nainggolan_124140220_pertemuan1/screenshot/Diskon.png)
+1. Form input utama –
+![Image Alt](https://github.com/winda457/pemrograman_web_itera_124140220/blob/d8b71de9796aa3e1e65e4bd93e5a9478ee899c83/Winda%20Yanti%20Nainggolan_124140220_pertemuan1/screenshot/Form.png)
+3. Validasi error –
+![Image Alt](https://github.com/winda457/pemrograman_web_itera_124140220/blob/d8b71de9796aa3e1e65e4bd93e5a9478ee899c83/Winda%20Yanti%20Nainggolan_124140220_pertemuan1/screenshot/Eror.png)
+5. Hasil perhitungan & tabel –
+![Image Alt](https://github.com/winda457/pemrograman_web_itera_124140220/blob/d8b71de9796aa3e1e65e4bd93e5a9478ee899c83/Winda%20Yanti%20Nainggolan_124140220_pertemuan1/screenshot/Diskon.png)
 
 ## Penjelasan Teknis Singkat
 
