@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Kasir - Mini POS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="hero">
+      <span class="hero__emoji">🌸</span>
+      <h1>Sweet Kasir</h1>
+      <p>Kasir manis untuk kantin &amp; toko kampus</p>
+    </header>
+
+    <main class="grid">
+      <!-- 1. Form -->
+      <section class="box box--form">
+        <h2>✨ Tambah Belanjaan</h2>
+        <form id="formBelanja" novalidate>
+          <label class="row">
+            <span>Nama Barang</span>
+            <input type="text" id="namaBarang" placeholder="mis. Roti Cokelat" autocomplete="off">
+            <small class="err" id="errNama" role="alert"></small>
+          </label>
+
+          <label class="row">
+            <span>Harga Satuan (Rp)</span>
+            <input type="number" id="hargaBarang" placeholder="minimal 500" step="any">
+            <small class="err" id="errHarga" role="alert"></small>
+          </label>
+
+          <label class="row">
+            <span>Jumlah (Qty)</span>
+            <input type="number" id="qtyBarang" placeholder="minimal 1" step="any">
+            <small class="err" id="errQty" role="alert"></small>
+          </label>
+
+          <button type="submit" class="btn btn--pink">💗 Masukkan Keranjang</button>
+        </form>
+      </section>
+
+      <!-- 2. Keranjang -->
+      <section class="box box--cart">
+        <div class="box__top">
+          <h2>🛍️ Keranjang Belanja</h2>
+          <span class="pill" id="jumlahItem">0 item</span>
+        </div>
+        <div class="scroller">
+          <table>
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Nama Barang</th>
+                <th class="right">Harga Satuan</th>
+                <th class="right">Qty</th>
+                <th class="right">Subtotal</th>
+                <th class="center">Aksi</th>
+              </tr>
+            </thead>
+            <tbody id="tabelBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 3. Pembayaran -->
+      <section class="box box--pay">
+        <h2>💰 Pembayaran</h2>
+
+        <ul class="sum">
+          <li><span>Total Belanja</span><b id="vTotal">Rp 0</b></li>
+          <li><span id="lblDiskon">Diskon</span><b id="vDiskon" class="hijau">- Rp 0</b></li>
+          <li class="sum__final"><span>Total Akhir</span><b id="vAkhir">Rp 0</b></li>
+        </ul>
+
+        <label class="row">
+          <span>Uang Bayar (Rp)</span>
+          <input type="number" id="uangBayar" placeholder="uang yang diterima" step="any">
+        </label>
+
+        <div class="kembali" id="boxKembali">
+          <span>Kembalian</span>
+          <b id="vKembali">Rp 0</b>
+          <em id="catatanKembali"></em>
+        </div>
+
+        <button type="button" class="btn btn--outline" id="btnBaru">🔄 Transaksi Baru / Reset</button>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
